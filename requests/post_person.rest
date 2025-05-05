@@ -3,5 +3,15 @@ content-type: application/json
 
 {
 "name": "Ada Lovelaces",
-"number": 14241442342
+"number": "12-41442342"
+}
+
+###
+
+PUT http://localhost:3001/api/persons/68150cfb59b263ef1ad375c2 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "ejmpllo4234",
+    "number": 65443473213
 }
